@@ -1,0 +1,31 @@
+! Initial value of the potential temperature in Celsius
+1350.0
+! Initial value of the Urey Ratio
+0.15
+! Tidal heat input flag (0: off, 1: on)
+0
+! Eccentricity
+0.055
+! ID number for the dynamical evolution model
+1
+! ID number for the rheological model of the Earth's mantle
+! 1 : Elastic
+! 2 : Viscous
+! 3 : Maxwell
+! 4 : Burgers
+! 5 : Maxwell-Andrade
+! 6 : CPL
+! 7 : CTL
+!
+! Selected value:
+5
+! Values for lmax and qmax (truncation of the series appearing in the expression of the tidal heating rate)
+2, 10
+! Select scaling law for computation of the maximum plate thickness (h_m)
+!
+! 'K06': Interpolation of fig. 5 of Korenaga (2006)
+! 'D09': Equation (11) of Davies (2009)
+!
+K06
+! Integration time step (in Gyr)
+0.01
